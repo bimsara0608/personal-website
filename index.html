@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bimsara Gunawardana</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e552b03492.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="Home">
+    <div class="container">
+        <nav>
+            <p></p>
+           <ul id="sidemenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+           </ul>
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+        <p>3D Designer</p>
+        <h1>Welcome! I'm <span>Bimsara</span> <br> Gunawardana from Sri Lanka </h1>
+    </div>
+    </div>
+</div> 
+
+<!-----------------about--------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/prifile image/profile_image_new_red.png" alt="user png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About me</h1>
+                <p>Greetings! I'm Bimsara, a seasoned 3D designer hailing from Sri Lanka. With over five years of industry experience,
+                     I specialize in crafting immersive visual experiences through animation, engineering modeling, and embedded systems design.
+                     My passion for creativity and innovation drives me to blend artistry with technical precision, delivering exceptional results across diverse projects.
+                     From character animations to complex engineering models, I approach each endeavor with meticulous attention to detail. 
+                     Fluent in programming languages, I ensure seamless user experiences, making interactions both captivating and intuitive.
+                     Explore my portfolio to witness the fusion of imagination and expertise,and let's collaborate to bring your visions to life.</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>3D Animation artist</span><br>create 3D product animations/character animations/Architectual visualisations </li>
+                            <li><span>Product designing</span><br>create engineering models/ prototype esign/ 3D printing</li>
+                            <li><span>embeded systems design and development</span><br>electronics circuit design/simulations/coding/machine learning tasks</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Co-Founder and Director, VirtualPensar Pvt Ltd</span><br>Co-founded and currently directing operations at VirtualPensar Pvt Ltd,
+                                 overseeing a variety of 3D animation projects and ensuring high-quality output for clients. </li>
+
+                            <li><span>Artist, Collax Pvt Ltd</span><br>Contributed to NFT projects, creating unique digital artworks and animations that enhance the visual appeal and value of digital assets.</li>
+
+                            <li><span>3D Animator, Various Clients</span><br>Developed animations for notable clients, including: <br>
+                               <ul>
+                                <li>AMOS Originals Clothing Company: Created compelling promotional animations.</li>
+                                <li>Kapruka Sri Lanka: Designed and animated visual content for marketing campaigns. </li>
+                                <li>Sakya Education Institute: Produced educational animations to aid in teaching. </li>
+                                <li>Manju Dev Super Purifier System: Developed product animations for advertising.</li>
+                                <li>Maniya Streams Gaming Channel: Created engaging animations for streaming content.</li>
+                              </ul> 
+                            </li>
+
+                            <li><span>Engineering Modeler, Freelance</span><br>Designed and modeled prototypes, including an earbud prototype design, utilizing SolidWorks and Inventor Pro to bring innovative concepts to life.</li>
+
+                            <li><span>Active Member, Thaprobane 4.0 (Mars Rover Project)</span><br>Participated in the European Rover Challenge, contributing to the design and development of the Mars Rover.</li>
+
+                            <li><span>IoT Developer, Smart Mailbox Project</span><br>Created the Smart Mailbox, a secure package and mail delivery system integrated with IoT technology to enhance safety and convenience.</li>
+
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University of Colombo</span><br>Bachelor of Engineering Technology Honours in Instrumentation and Automation </li>
+                            <li><span>Sri Lanka Robotics Institute</span><br>Completed PLC Course</li>
+                            <li><span>Cosera</span><br>Completed Data Science fundementals Course</li>
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------services--------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-cube"></i>
+                <h2>3D Animation</h2>
+                <p>Transforming ideas into captivating visual stories with high-quality animations that engage audiences.</p>
+                       <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h2>Product designing</h2>
+                <p>Bringing product ideas to life with precision engineering models and 3D printed prototypes that stand out in the market.</p>
+                       <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Embeded systems</h2>
+                <p>Innovating with confidence through tailored systems design and seamless integration for optimal performance.</p>
+                       <a href="#">Learn more</a>
+            </div>
+
+        
+
+        </div>
+
+    </div>
+</div>
+
+
+<!--------------------Portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="images/portfolio/kapruka animation.png" alt="work-1">
+                <div class="layer">
+                    <h3>3D Animation</h3>
+                    <p>This is a 3D animation created for kapruka sri lanka</p>
+                    <a href="https://web.facebook.com/kaprukafans/posts/pfbid02LzjdUekasJA5AZunsGREp6D1rg3jQzp7WE1MBTBa3LEhbxtthwr1YBPsmCd5aDNLl"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+
+    
+
+            <div class="work">
+                <img src="images/portfolio/amos watch.png" alt="work-2">
+                <div class="layer">
+                    <h3>3D Product Animation</h3>
+                    <p>This is a product animation created for AMOS Originals</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/portfolio/rover.png" alt="work-3">
+                <div class="layer">
+                    <h3>Robatics</h3>
+                    <p>This is a cleaning rover created for beach cleaning purpose</p>
+                    <a href="https://web.facebook.com/share/p/1ix2dp8JqosiDPB4/"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/portfolio/earbud.png" alt="work-3">
+                <div class="layer">
+                    <h3>Product Design</h3>
+                    <p>This is a product design created for medical application</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/portfolio/smart mailbox.png" alt="work-3">
+                <div class="layer">
+                    <h3>Embeded Systems Application</h3>
+                    <p>This is a smart mailbox created to keep track and ensure the safty of the packages</p>
+                    <a href="documents/smart_mailbox_E_poster.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+
+
+        </div>
+        <a href="https://virtualpensar.com/#gallery-section" class="btn">see more</a>
+    </div>
+</div>
+
+
+<!----------------------------------contact----------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>bimsaragunawardana3d@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+94769205348</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/bimsara.shemal"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/bimsara0608"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/BimsaraG95031"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/bimsara-gunawardana-b25715232/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/bimsara_6?igsh=cnRvbHloN2ZmMzJq&utm_source=qr"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="documents/Bimsara Gunawardana.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="your Name" required>
+                <input type="email" name="Email" placeholder="your email" required>
+                <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+            </form>
+            
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>© 2024 All Rights Reserved. Bimsaragunawardana </p>
+    </div>
+
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
